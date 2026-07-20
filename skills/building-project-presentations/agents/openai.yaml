@@ -1,0 +1,4 @@
+interface:
+  display_name: "Building Project Presentations"
+  short_description: "Build evidence-led project review and acceptance decks"
+  default_prompt: "Use $building-project-presentations to create a verified project PPTX for this audience, decision, and time limit."
