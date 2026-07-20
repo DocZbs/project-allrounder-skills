@@ -2,22 +2,16 @@
   <img src="docs/assets/project-cascade-terminal-2x2.png" width="720" alt="老师把项目交给师兄，师兄把不断增加的任务交给自己，最后使用 Skill 工具箱整理并完成项目。" />
 </p>
 
-# project-allrounder-skills
+<p align="center">
+  <img src="docs/assets/pass-logo.svg" width="760" alt="PASS — Project Allrounder Skill Suite，绿色与青色像素终端风格标识。" />
+</p>
 
-> 从项目指南到验收结项：给课题组准备的横纵项目全生命周期 Skills。
+> **PASS — Project Allrounder Skill Suite**：从项目指南到验收结项，面向课题组横纵项目全生命周期。
 
 [English](README_EN.md) · 中文
 
 > [!NOTE]
-> 🚧 当前正在本地开发和测试，尚未发布首个可安装版本。
-
-```text
-老师 → 师兄 → 我 → 申报 + 开发 + 汇报 + PPT + 报销 + 验收
-                         ↓
-              $ equip project-allrounder
-                         ↓
-                  项目有序推进并结项
-```
+> 三个 Skill 已进入 `main` 并通过首轮结构、脚本和前向场景测试；首个版本标签尚未发布。
 
 ## 三个 Skill
 
@@ -44,20 +38,9 @@
 
 计划支持国自然、国家社科、重点研发、省市和校级纵向项目，以及企业横向项目。
 
-## 优秀本子与优秀 PPT
-
-案例对照是必经步骤。Skill 优先使用：
-
-- 资助机构或作者授权公开的获批材料；
-- 官方评审标准、评审综述、项目摘要和结题报告；
-- 来源清楚的高校公开案例；
-- 用户有权使用的课题组历史材料。
-
-只学习结构、证据组织和评审反馈，不复制他人的文字、图表、数据或设计。本仓库不收录来源不明、疑似泄密或未经授权传播的材料。
-
 ## 安装
 
-首个版本发布后，可使用 Codex 自带的 Skill Installer：
+可从 `main` 使用 Codex 自带的 Skill Installer 安装：
 
 ```bash
 python "${CODEX_HOME:-$HOME/.codex}/skills/.system/skill-installer/scripts/install-skill-from-github.py" \

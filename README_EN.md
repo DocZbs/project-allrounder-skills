@@ -2,22 +2,16 @@
   <img src="docs/assets/project-cascade-terminal-2x2.png" width="720" alt="A professor hands a project to a senior researcher, the senior passes an expanding workload to a junior researcher, and the junior organizes the project with a glowing skill toolbox." />
 </p>
 
-# project-allrounder-skills
+<p align="center">
+  <img src="docs/assets/pass-logo.svg" width="760" alt="PASS — Project Allrounder Skill Suite in green and cyan pixel-terminal lettering." />
+</p>
 
-> End-to-end skills for vertical and horizontal projects, from the first requirement to final acceptance and closeout.
+> **PASS — Project Allrounder Skill Suite**: end-to-end skills for vertical and horizontal projects, from the first requirement to final acceptance and closeout.
 
 English · [中文](README.md)
 
 > [!NOTE]
-> 🚧 This repository is under local development and testing. No installable release is available yet.
-
-```text
-Professor → Senior → Me → Proposal + Development + Reports + Slides + Expenses
-                               ↓
-                    $ equip project-allrounder
-                               ↓
-                    Controlled project closeout
-```
+> All three skills are now on `main` and have passed initial structural, script, and forward-scenario tests. The first version tag has not been published yet.
 
 ## Three Skills
 
@@ -44,20 +38,9 @@ Call document / client need
 
 The first release is planned to support NSFC, the National Social Science Fund of China, National Key R&D projects, provincial and institutional vertical programs, and commissioned horizontal projects.
 
-## Successful Proposals and Reference Decks
-
-Example comparison is a required step. The skills prioritize:
-
-- funded materials published with sponsor or author permission;
-- official review criteria, review summaries, award abstracts, and final reports;
-- clearly sourced examples published by universities or investigators;
-- historical materials the user is authorized to use.
-
-The workflow learns structure, evidence strategy, and reviewer feedback. It does not copy wording, figures, data, or visual assets. This repository does not redistribute leaked, confidential, or provenance-unknown materials.
-
 ## Installation
 
-After the first release, install all three skills with Codex's built-in Skill Installer:
+Install all three skills from `main` with Codex's built-in Skill Installer:
 
 ```bash
 python "${CODEX_HOME:-$HOME/.codex}/skills/.system/skill-installer/scripts/install-skill-from-github.py" \
