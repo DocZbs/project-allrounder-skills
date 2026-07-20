@@ -61,14 +61,12 @@
 
 ```bash
 python "${CODEX_HOME:-$HOME/.codex}/skills/.system/skill-installer/scripts/install-skill-from-github.py" \
-  --repo <github-owner>/project-allrounder-skills \
+  --repo DocZbs/project-allrounder-skills \
   --path \
     skills/project-allrounder \
     skills/writing-project-proposals \
     skills/building-project-presentations
 ```
-
-GitHub 发布时会把 `<github-owner>` 替换为实际账号或组织名。
 
 ## 使用示例
 

@@ -61,14 +61,12 @@ After the first release, install all three skills with Codex's built-in Skill In
 
 ```bash
 python "${CODEX_HOME:-$HOME/.codex}/skills/.system/skill-installer/scripts/install-skill-from-github.py" \
-  --repo <github-owner>/project-allrounder-skills \
+  --repo DocZbs/project-allrounder-skills \
   --path \
     skills/project-allrounder \
     skills/writing-project-proposals \
     skills/building-project-presentations
 ```
-
-The published repository will replace `<github-owner>` with the actual account or organization.
 
 ## Example Prompts
 
