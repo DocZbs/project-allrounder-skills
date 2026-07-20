@@ -1,0 +1,4 @@
+interface:
+  display_name: "Project Allrounder"
+  short_description: "Run vertical and horizontal projects end to end"
+  default_prompt: "Use $project-allrounder to take over this project, build its master record, and drive it to verified closeout."
