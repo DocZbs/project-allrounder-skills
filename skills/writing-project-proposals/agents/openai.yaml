@@ -1,0 +1,4 @@
+interface:
+  display_name: "Writing Project Proposals"
+  short_description: "Develop and audit vertical or horizontal proposals"
+  default_prompt: "Use $writing-project-proposals to analyze this call, compare authorized successful examples, and build an evidence-grounded proposal plan."
