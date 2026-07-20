@@ -1,6 +1,5 @@
 from pathlib import Path
 import unittest
-import xml.etree.ElementTree as ET
 
 
 ROOT = Path(__file__).resolve().parents[1]
@@ -9,17 +8,26 @@ SKILL_NAMES = (
     "writing-project-proposals",
     "building-project-presentations",
 )
+PASS_BANNER = """```text
+██████╗  █████╗ ███████╗███████╗
+██╔══██╗██╔══██╗██╔════╝██╔════╝
+██████╔╝███████║███████╗███████╗
+██╔═══╝ ██╔══██║╚════██║╚════██║
+██║     ██║  ██║███████║███████║
+╚═╝     ╚═╝  ╚═╝╚══════╝╚══════╝
+     Project Allrounder Skill Suite
+```"""
 
 
 class RepositoryTest(unittest.TestCase):
     def test_expected_skills_and_pass_branding_exist(self):
-        self.assertTrue((ROOT / "docs/assets/pass-logo.svg").is_file())
+        self.assertFalse((ROOT / "docs/assets/pass-logo.svg").exists())
 
         readme = (ROOT / "README.md").read_text(encoding="utf-8")
         readme_en = (ROOT / "README_EN.md").read_text(encoding="utf-8")
         for content in (readme, readme_en):
-            self.assertIn("Project Allrounder Skill Suite", content)
-            self.assertIn("docs/assets/pass-logo.svg", content)
+            self.assertIn(PASS_BANNER, content)
+            self.assertNotIn("docs/assets/pass-logo.svg", content)
             self.assertNotIn("$ equip project-allrounder", content)
 
         self.assertNotIn("## 优秀本子与优秀 PPT", readme)
@@ -29,14 +37,6 @@ class RepositoryTest(unittest.TestCase):
 
         for name in SKILL_NAMES:
             self.assertTrue((ROOT / "skills" / name / "SKILL.md").is_file())
-
-    def test_pass_logo_is_valid_green_cyan_svg(self):
-        logo = ROOT / "docs/assets/pass-logo.svg"
-        ET.parse(logo)
-        svg = logo.read_text(encoding="utf-8").lower()
-        for color in ("#a7f070", "#63e6a9", "#3dd9c2", "#42c9f5"):
-            self.assertIn(color, svg)
-        self.assertIn("project allrounder skill suite", svg)
 
 
 if __name__ == "__main__":

@@ -2,9 +2,15 @@
   <img src="docs/assets/project-cascade-terminal-2x2.png" width="720" alt="老师把项目交给师兄，师兄把不断增加的任务交给自己，最后使用 Skill 工具箱整理并完成项目。" />
 </p>
 
-<p align="center">
-  <img src="docs/assets/pass-logo.svg" width="760" alt="PASS — Project Allrounder Skill Suite，绿色与青色像素终端风格标识。" />
-</p>
+```text
+██████╗  █████╗ ███████╗███████╗
+██╔══██╗██╔══██╗██╔════╝██╔════╝
+██████╔╝███████║███████╗███████╗
+██╔═══╝ ██╔══██║╚════██║╚════██║
+██║     ██║  ██║███████║███████║
+╚═╝     ╚═╝  ╚═╝╚══════╝╚══════╝
+     Project Allrounder Skill Suite
+```
 
 > **PASS — Project Allrounder Skill Suite**：从项目指南到验收结项，面向课题组横纵项目全生命周期。
 
