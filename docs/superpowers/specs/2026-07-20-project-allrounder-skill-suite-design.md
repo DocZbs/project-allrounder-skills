@@ -88,17 +88,13 @@ project-allrounder-skills/
 │       ├── references/
 │       ├── assets/
 │       └── scripts/
-├── tests/
-│   ├── scenarios/
-│   ├── baselines/
-│   └── results/
 └── docs/
     ├── assets/
     ├── sources/
     └── superpowers/specs/
 ```
 
-仓库根目录保存开源项目文档。各 Skill 目录只保留运行所需文件，不在 Skill 内创建重复 README、安装指南或变更日志。
+仓库根目录保存开源项目文档。各 Skill 目录只保留运行所需文件，不在 Skill 内创建重复 README、安装指南或变更日志。测试与生成的验证结果仅在本地维护，不纳入公开发行仓库。
 
 ## 5. 项目生命周期
 

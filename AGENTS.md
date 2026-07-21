@@ -26,13 +26,13 @@ Read the approved design before changing scope or architecture:
 ## Required Working Sequence
 
 1. Read this file and the relevant design section.
-2. Inspect the target skill, its tests, and one similar local pattern before editing.
+2. Inspect the target skill, its validation tools, and one similar local pattern before editing.
 3. Confirm the project type, lifecycle stage, requested deliverable, and authoritative source documents.
 4. Run a baseline scenario without the target skill and record the observed failure.
 5. Implement or revise one skill only.
 6. Validate its structure, scripts, triggers, and scenario behavior.
 7. Commit the verified skill before starting the next skill.
-8. Run cross-skill integration tests only after all three skills pass independently.
+8. Run cross-skill integration checks only after all three skills pass independently.
 
 Do not batch-create all three skills and test them afterward.
 
