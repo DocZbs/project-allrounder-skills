@@ -8,14 +8,10 @@ SKILL_NAMES = (
     "writing-project-proposals",
     "building-project-presentations",
 )
-PASS_BANNER = """<p align="center">🟢　🟡　🔵</p>
+PASS_BANNER_START = """<p align="center">🟢　🟡　🔵</p>
 
-<pre align="center"><code>██████╗  █████╗ ███████╗███████╗
-██╔══██╗██╔══██╗██╔════╝██╔════╝
-██████╔╝███████║███████╗███████╗
-██╔═══╝ ██╔══██║╚════██║╚════██║
-██║     ██║  ██║███████║███████║
-╚═╝     ╚═╝  ╚═╝╚══════╝╚══════╝</code></pre>
+<p align="center"><code>"""
+PASS_BANNER_END = """</code></p>
 
 <p align="center"><strong>🟩 Project Allrounder Skill Suite 🟦</strong></p>"""
 
@@ -27,7 +23,11 @@ class RepositoryTest(unittest.TestCase):
         readme = (ROOT / "README.md").read_text(encoding="utf-8")
         readme_en = (ROOT / "README_EN.md").read_text(encoding="utf-8")
         for content in (readme, readme_en):
-            self.assertIn(PASS_BANNER, content)
+            self.assertIn(PASS_BANNER_START, content)
+            self.assertIn(PASS_BANNER_END, content)
+            self.assertIn("██████╗&nbsp;&nbsp;█████╗", content)
+            self.assertIn("<br>", content)
+            self.assertNotIn("<pre", content)
             self.assertNotIn("docs/assets/pass-logo.svg", content)
             self.assertNotIn("$ equip project-allrounder", content)
             self.assertNotIn("> [!NOTE]", content)
