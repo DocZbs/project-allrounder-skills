@@ -2,22 +2,20 @@
   <img src="docs/assets/project-cascade-terminal-2x2.png" width="720" alt="A professor hands a project to a senior researcher, the senior passes an expanding workload to a junior researcher, and the junior organizes the project with a glowing skill toolbox." />
 </p>
 
-```text
-██████╗  █████╗ ███████╗███████╗
+<p align="center">🟢　🟡　🔵</p>
+
+<pre align="center"><code>██████╗  █████╗ ███████╗███████╗
 ██╔══██╗██╔══██╗██╔════╝██╔════╝
 ██████╔╝███████║███████╗███████╗
 ██╔═══╝ ██╔══██║╚════██║╚════██║
 ██║     ██║  ██║███████║███████║
-╚═╝     ╚═╝  ╚═╝╚══════╝╚══════╝
-     Project Allrounder Skill Suite
-```
+╚═╝     ╚═╝  ╚═╝╚══════╝╚══════╝</code></pre>
+
+<p align="center"><strong>🟩 Project Allrounder Skill Suite 🟦</strong></p>
 
 > **PASS — Project Allrounder Skill Suite**: end-to-end skills for vertical and horizontal projects, from the first requirement to final acceptance and closeout.
 
 English · [中文](README.md)
-
-> [!NOTE]
-> All three skills are now on `main` and have passed initial structural, script, and forward-scenario tests. The first version tag has not been published yet.
 
 ## Three Skills
 

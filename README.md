@@ -2,22 +2,20 @@
   <img src="docs/assets/project-cascade-terminal-2x2.png" width="720" alt="老师把项目交给师兄，师兄把不断增加的任务交给自己，最后使用 Skill 工具箱整理并完成项目。" />
 </p>
 
-```text
-██████╗  █████╗ ███████╗███████╗
+<p align="center">🟢　🟡　🔵</p>
+
+<pre align="center"><code>██████╗  █████╗ ███████╗███████╗
 ██╔══██╗██╔══██╗██╔════╝██╔════╝
 ██████╔╝███████║███████╗███████╗
 ██╔═══╝ ██╔══██║╚════██║╚════██║
 ██║     ██║  ██║███████║███████║
-╚═╝     ╚═╝  ╚═╝╚══════╝╚══════╝
-     Project Allrounder Skill Suite
-```
+╚═╝     ╚═╝  ╚═╝╚══════╝╚══════╝</code></pre>
+
+<p align="center"><strong>🟩 Project Allrounder Skill Suite 🟦</strong></p>
 
 > **PASS — Project Allrounder Skill Suite**：从项目指南到验收结项，面向课题组横纵项目全生命周期。
 
 [English](README_EN.md) · 中文
-
-> [!NOTE]
-> 三个 Skill 已进入 `main` 并通过首轮结构、脚本和前向场景测试；首个版本标签尚未发布。
 
 ## 三个 Skill
 

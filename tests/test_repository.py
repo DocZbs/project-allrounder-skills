@@ -8,15 +8,16 @@ SKILL_NAMES = (
     "writing-project-proposals",
     "building-project-presentations",
 )
-PASS_BANNER = """```text
-██████╗  █████╗ ███████╗███████╗
+PASS_BANNER = """<p align="center">🟢　🟡　🔵</p>
+
+<pre align="center"><code>██████╗  █████╗ ███████╗███████╗
 ██╔══██╗██╔══██╗██╔════╝██╔════╝
 ██████╔╝███████║███████╗███████╗
 ██╔═══╝ ██╔══██║╚════██║╚════██║
 ██║     ██║  ██║███████║███████║
-╚═╝     ╚═╝  ╚═╝╚══════╝╚══════╝
-     Project Allrounder Skill Suite
-```"""
+╚═╝     ╚═╝  ╚═╝╚══════╝╚══════╝</code></pre>
+
+<p align="center"><strong>🟩 Project Allrounder Skill Suite 🟦</strong></p>"""
 
 
 class RepositoryTest(unittest.TestCase):
@@ -29,6 +30,7 @@ class RepositoryTest(unittest.TestCase):
             self.assertIn(PASS_BANNER, content)
             self.assertNotIn("docs/assets/pass-logo.svg", content)
             self.assertNotIn("$ equip project-allrounder", content)
+            self.assertNotIn("> [!NOTE]", content)
 
         self.assertNotIn("## 优秀本子与优秀 PPT", readme)
         self.assertNotIn("案例对照是必经步骤", readme)
