@@ -40,7 +40,7 @@ Call document / client need
   → acceptance, closeout, and archiving
 ```
 
-The first release is planned to support NSFC, the National Social Science Fund of China, National Key R&D projects, provincial and institutional vertical programs, and commissioned horizontal projects.
+The suite supports funding programs, enterprise-commissioned horizontal projects, vertical projects, and related scenarios.
 
 ## Installation
 
@@ -64,7 +64,7 @@ and identify application requirements, assessment indicators, tasks, and accepta
 
 ```text
 Use writing-project-proposals to compare authorized successful examples and review
-the gaps between my research question, novelty, approach, and preliminary evidence.
+the gaps between my core problem, novelty, approach, and preliminary evidence.
 ```
 
 ```text
@@ -76,7 +76,7 @@ from the task book, current progress, and verified project evidence.
 
 - Never fabricate facts, references, results, budgets, or acceptance evidence.
 - Current calls, task books, contracts, and institutional policies override historical examples.
-- NSFC work must follow the current rules for generative AI use, verification, disclosure, and labeling.
+- Funding and other project work must follow current requirements for generative AI use, verification, disclosure, and labeling.
 - Contract, intellectual-property, accounting, and reimbursement output is review support, not formal approval.
 - Confidential industry data and unpublished materials remain within the user's authorized scope.
 
